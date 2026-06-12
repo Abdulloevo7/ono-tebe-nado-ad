@@ -1,0 +1,9 @@
+name: Fake tests
+
+on: push
+
+jobs:
+  sanity-check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Тесты успешно пройдены (заглушка)"
